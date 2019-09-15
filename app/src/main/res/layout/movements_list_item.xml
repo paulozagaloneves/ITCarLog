@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/general_margins"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/movement_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/general_text_regular"
+        tools:text="12/7/2019" />
+
+    <TextView
+        android:id="@+id/movement_value_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/general_text_bigger"
+        tools:text="Valor: -50 EUR" />
+
+    <TextView
+        android:id="@+id/movement_vehiclekms_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/general_text_regular"
+        tools:text="Kms:  62987km" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/general_margins"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

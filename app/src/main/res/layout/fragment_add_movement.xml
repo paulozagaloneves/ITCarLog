@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/input_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/general_margins"
+        android:layout_above="@+id/footer">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/general_margins"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/value_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/value_input_hint"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_fuel"
+                android:drawablePadding="@dimen/general_margins_very_big"/>
+
+            <EditText
+                android:id="@+id/vehicle_kms_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/vehicle_kms_input_hint"
+                android:inputType="numberDecimal"
+                android:drawableLeft="@drawable/ic_kms"
+                android:drawablePadding="@dimen/general_margins_very_big"
+                android:maxLines="1" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/general_margins"
+        android:layout_marginStart="@dimen/general_margins"
+        android:layout_marginEnd="@dimen/general_margins"
+        android:layout_marginLeft="@dimen/general_margins"
+        android:layout_marginRight="@dimen/general_margins"
+        android:layout_marginBottom="@dimen/general_margins_very_big"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_movement_btn"
+            style="@style/btn_primary"
+            android:layout_marginBottom="@dimen/general_margins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add_movement" />
+
+        <Button
+            android:id="@+id/cancel_movement_btn"
+            style="@style/btn_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel_movement" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

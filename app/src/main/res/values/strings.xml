@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ITCarMan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="value_input_hint">Valor atestado</string>
+    <string name="vehicle_kms_input_hint">Quilometragem do Veículo</string>
+    <string name="btn_add_movement">Adicionar Movimento</string>
+    <string name="btn_cancel_movement">Cancelar Movimento</string>
+    <string name="btn_display_movement">Consultar Movimentos</string>
+    <string name="btn_add_new_movement">Adicionar Movimento</string>
+
+    <!-- Movements List Labels -->
+    <string name="movements_date_label">Data do movimento: %1$s</string>
+    <string name="movements_value_label">%1$.2f €</string>
+    <string name="movements_vehiclekms_label">Quilometragem: %1$.2f Kms</string>
+
+    <!-- Toast Messages -->
+    <string name="message_add_movement_success">Movimento adicionado com sucesso!</string>
+    <string name="message_add_movement_failure">Preencha todos os dados corretamente e tente novamente!</string>
+
+
+    <!-- General Strings -->
+    <string name="no_movements_in_list">Ainda não adicionou qualquer movimento.</string>
+    <string name="pref_switch_summary">Switch preference</string>
+    <string name="pref_switch_title">Settings option</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header">User</string>
+    <string name="card_header">Prepaid Card</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Preferences -->
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <PreferenceCategory android:title="User">
+        <EditTextPreference
+            android:defaultValue="you name"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="your name"
+            android:key="userName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Your Name" />
+        <EditTextPreference
+            android:defaultValue="email@email.com"
+            android:hint="email@email.com"
+            android:key="userEmail"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Your Email" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PrePaid Card">
+        <EditTextPreference
+            android:defaultValue="100"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="100"
+            android:key="plafond"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Plafond em Euros" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
